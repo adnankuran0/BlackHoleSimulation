@@ -1,7 +1,9 @@
 #pragma once
 
 #include "GL/glew.h"
-
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -88,6 +90,21 @@ public:
     void setFloat(const std::string& name, float value) const
     {
         glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
+    }
+
+    void setVec2(const std::string& name, const glm::vec2& value) const
+    {
+        glUniform2f(glGetUniformLocation(ID, name.c_str()), value[0], value[1]);
+    }
+
+    void setVec3(const std::string& name, const glm::vec3& value) const
+    {
+        glUniform3f(glGetUniformLocation(ID, name.c_str()),value[0],value[1],value[2]);
+    }
+
+    void setVec4(const std::string& name, const glm::vec4& value) const
+    {
+        glUniform4f(glGetUniformLocation(ID, name.c_str()), value[0], value[1], value[2], value[3]);
     }
 
 private:
