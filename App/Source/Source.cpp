@@ -105,7 +105,8 @@ int main(void)
     glBindVertexArray(0);
 
 
-    Shader shader("shaders/vertex.vert", "shaders/fragment.frag");
+    Shader shader("Source/shaders/vertex.vert", "Source/shaders/fragment.frag");
+    
     shader.setInt("albedo", 0);
 
 
@@ -120,7 +121,7 @@ int main(void)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     // load and generate the texture
     int width, height, nrChannels;
-    unsigned char* data = stbi_load("nebula.png", &width, &height, &nrChannels, 0);
+    unsigned char* data = stbi_load("Source/nebula.png", &width, &height, &nrChannels, 0);
     if (data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
