@@ -1,6 +1,6 @@
 # Black Hole Simulation
 
-This project visualizes a black hole simulation using OpenGL and ImGui. The shader code has been sourced from [Shadertoy](https://www.shadertoy.com/view/tsBXW3) and adapted for use in an OpenGL environment to create realistic visual effects and simulations.
+This project visualizes a black hole  using OpenGL and ImGui. The shader code has been sourced from [Shadertoy](https://www.shadertoy.com/view/tsBXW3) and adapted for use in an OpenGL environment to create realistic visual effects and simulations.
 
 ## Screenshots
 
@@ -20,7 +20,7 @@ Here are some example screenshots of the simulation:
 - Simulates the gravitational effects around a black hole.
 - Realistic black hole visuals created with shaders.
 - Interactive user interface using ImGui for controlling the simulation.
-- Dynamic visualization with adjustable simulation parameters.
+- Dynamic visualization with adjustable parameters.
 
 ## Technologies Used
 
@@ -36,6 +36,10 @@ Here are some example screenshots of the simulation:
 
 To get the project up and running, you'll need to follow the setup instructions for your platform.
 
+#### For Windows
+1. Navigate to the `Scripts` folder in the project directory.
+2. Run the Setup-Windows.bat batch file.
+
 #### For Linux
 
 1. Navigate to the `Scripts` folder in the project directory.
@@ -49,6 +53,3 @@ To get the project up and running, you'll need to follow the setup instructions 
    ```bash
    ./Setup-Linux.sh
 
-#### For Windows
-1. Navigate to the `Scripts` folder in the project directory.
-2. Run the Setup-Windows.bat batch file.
