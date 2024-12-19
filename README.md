@@ -28,13 +28,27 @@ Here are some example screenshots of the simulation:
 - **ImGui**: Lightweight and fast user interface solution.
 - **GLFW**: Used for window creation and input handling.
 - **GLM**: Mathematics library for vector and matrix computations.
-- **Shader (Shadertoy)**: Shader code responsible for simulating the black hole.
+
 
 ## Getting Started
 
 ### Installation
 
-1. Clone this repository to your local machine.
+To get the project up and running, you'll need to follow the setup instructions for your platform.
 
+#### For Linux
+
+1. Navigate to the `Scripts` folder in the project directory.
+
+2. Make the `Setup-Linux.sh` script executable:
+   
    ```bash
-   git clone <repository_link>
+   chmod +x Setup-Linux.sh
+
+3. Run the script to install necessary dependencies and set up the project:
+   ```bash
+   ./Setup-Linux.sh
+
+#### For Windows
+1. Navigate to the `Scripts` folder in the project directory.
+2. Run the Setup-Windows.bat batch file.
