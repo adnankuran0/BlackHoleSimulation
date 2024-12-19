@@ -2,6 +2,19 @@
 
 This project visualizes a black hole simulation using OpenGL and ImGui. The shader code has been sourced from [Shadertoy](https://www.shadertoy.com/view/tsBXW3) and adapted for use in an OpenGL environment to create realistic visual effects and simulations.
 
+## Screenshots
+
+Here are some example screenshots of the simulation:
+
+- **Example 1**:
+  ![Example Screenshot 1](path/to/screenshot1.png)
+
+- **Example 2**:
+  ![Example Screenshot 2](path/to/screenshot2.png)
+
+- **Example 3**:
+  ![Example Screenshot 3](path/to/screenshot3.png)
+
 ## Features
 
 - Simulates the gravitational effects around a black hole.
@@ -18,12 +31,6 @@ This project visualizes a black hole simulation using OpenGL and ImGui. The shad
 - **Shader (Shadertoy)**: Shader code responsible for simulating the black hole.
 
 ## Getting Started
-
-### Requirements
-
-- OpenGL driver (minimum version 4.5 recommended)
-- GLFW, GLM, and ImGui libraries
-- C++ 11 or higher
 
 ### Installation
 
