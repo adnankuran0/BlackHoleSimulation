@@ -7,13 +7,13 @@ This project visualizes a black hole simulation using OpenGL and ImGui. The shad
 Here are some example screenshots of the simulation:
 
 - **Example 1**:
-  ![Example Screenshot 1](path/to/screenshot1.png)
+  ![Example Screenshot 1](Screenshots/example1.png)
 
 - **Example 2**:
-  ![Example Screenshot 2](path/to/screenshot2.png)
+  ![Example Screenshot 2](Screenshots/example2.png)
 
 - **Example 3**:
-  ![Example Screenshot 3](path/to/screenshot3.png)
+  ![Example Screenshot 3](Screenshots/example3.png)
 
 ## Features
 
