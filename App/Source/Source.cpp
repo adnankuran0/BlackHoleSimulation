@@ -140,7 +140,6 @@ int main(void)
     {
         processInput(window);
 
-        /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
         shader.use();

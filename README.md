@@ -1,24 +1,48 @@
-# C++ Project Starter Template
+Black Hole Simulation
+This project is a visualization of a black hole simulation created using OpenGL and ImGui. The shader is sourced from Shadertoy and has been adapted to work within an OpenGL environment.
 
-This is a little quick-start project template for C++ projects which utilise a Core/App project architecture. There are two included projects - one called _Core_, and one called _App_. [Premake](https://github.com/premake/premake-core) is used to generate project files.
+Features
+Visualization of black holes and their gravitational effects.
+Realistic visuals powered by shaders.
+User interaction through ImGui interface.
+Dynamic visualization and simulation control through user settings.
+Technologies Used
+OpenGL: Main rendering technology for 3D graphics.
+ImGui: Minimalistic and fast user interface solution.
+GLFW: Window creation and input handling.
+GLM: Mathematics library for vector and matrix computations.
+Shader (Shadertoy): Shader code responsible for simulating the black hole.
+Getting Started
+Requirements
+OpenGL driver (minimum version 4.5 recommended)
+GLFW, GLM, and ImGui libraries
+C++ 11 or higher
+Installation
+Clone this repository to your local machine.
 
-Core builds into a static library and is meant to contain common code intended for use in multiple applications. App builds into an executable and links the Core static library, as well as provides an include path to Core's code.
+bash
+Kodu kopyala
+git clone <repository_link>
+Install the required dependencies (GLFW, GLM, ImGui).
 
-The `Scripts/` directory contains build scripts for Windows and Linux, and the `Vendor/` directory contains Premake binaries (currently version `5.0-beta2`).
+Build the project:
 
-## Getting Started
-1. Clone this repository or use the "Use this template" button on GitHub to quickly set up your own repository based on this template
-2. `App/` and `Core/` are the two projects - you can edit the names of these folders and their contents to suit
-3. The three included Premake build files are `Build.lua`, `Core/Build-Core.lua` and `App/Build-App.lua` - you can edit these to customise your build configurations, edit the names of your projects and workspace/solution, etc.
-4. Open the `Scripts/` directory and run the appropriate `Setup` script to generate projects files. You can edit the setup scripts to change the type of project that is generated - out of the box they are set to Visual Studio 2022 for Windows and gmake2 for Linux.
+Use CMake or another suitable build system to compile the project.
+Run the application:
 
-Note that no macOS setup script is currently provided; you can duplicate the Linux script and adjust accordingly.
+Launch the main.cpp to start the simulation.
+Usage
+Upon launching the application, a black hole visualization will appear on the screen.
+The ImGui-based interface allows you to customize the simulation and adjust settings.
+Use the ImGui menu to control the camera and other simulation parameters.
+Screenshots
+Here are some example screenshots of the simulation:
 
-## Included
-- Some example code (in `App/Source` and `Core/Source`) to provide a starting point and test
-- Simple `.gitignore` to ignore project files and binaries
-- Premake binaries for Win/Mac/Linux (`v5.0-beta2`)
+Example 1: [Add image here]
+Example 2: [Add image here]
+Example 3: [Add image here]
+Contributing
+If you’d like to contribute to this project, feel free to submit a pull request (PR). For any bugs, suggestions, or questions, please use the issues section.
 
-## License
-- UNLICENSE for this repository (see `UNLICENSE.txt` for more details)
-- Premake is licensed under BSD 3-Clause (see included LICENSE.txt file for more details)
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
